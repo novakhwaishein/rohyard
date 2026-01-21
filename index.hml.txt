@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name | Classical & Bollywood Choreographer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">NAME SURNAME</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#showreels">Showreels</a></li>
+            <li><a href="#contact" class="btn-nav">Book Now</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Grace in Motion.<br>Power in Rhythm.</h1>
+            <p>Classical Indian Dancer & Bollywood Choreographer</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn btn-primary">View Choreography</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?q=80&w=2070&auto=format&fit=crop" alt="Dancer Background" class="hero-bg">
+    </header>
+
+    <section id="about" class="section">
+        <div class="container split-layout">
+            <div class="about-text">
+                <h2>From Tradition to Trend</h2>
+                <p class="highlight">Bridging the gap between the ancient Natya Shastra and the modern Silver Screen.</p>
+                <p>I am a professionally trained Classical dancer with over 15 years of experience in [Insert Style: e.g., Kathak]. My journey began in the temple courtyards, mastering the art of storytelling through Abhinaya.</p>
+                <p>Today, I bring that discipline and grace to Bollywood, creating choreography that is not just movement, but emotion. I have worked on [Mention Films/Shows] and specialize in fusion choreography that respects tradition while embracing the beat.</p>
+                
+                <div class="stats">
+                    <div class="stat-box">
+                        <h3>15+</h3>
+                        <p>Years Training</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>50+</h3>
+                        <p>Stage Shows</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>10+</h3>
+                        <p>Music Videos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1621257497184-e35b71c26b52?q=80&w=1974&auto=format&fit=crop" alt="Classical Dancer Portrait">
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Visual Diary</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1544289330-97eb3361555a?q=80&w=2070&auto=format&fit=crop" alt="Classical Performance">
+                    <div class="gallery-overlay">
+                        <h3>Classical</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1516475429286-465d815a0df4?q=80&w=2080&auto=format&fit=crop" alt="Bollywood Set">
+                    <div class="gallery-overlay">
+                        <h3>Bollywood Commercial</h3>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?q=80&w=2070&auto=format&fit=crop" alt="Workshops">
+                    <div class="gallery-overlay">
+                        <h3>Workshops</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="showreels" class="section">
+        <div class="container">
+            <h2 class="section-title">Choreography Reels</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <h3>Classical Fusion</h3>
+                    <div class="video-wrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=placeholder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <h3>Bollywood Commercial</h3>
+                    <div class="video-wrapper">
+                         <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=placeholder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-gold">Let's Create Magic</h2>
+            <div class="contact-wrapper">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <select>
+                        <option>Inquiry Type</option>
+                        <option>Choreography (Film/Video)</option>
+                        <option>Live Performance</option>
+                        <option>Workshop/Class</option>
+                    </select>
+                    <textarea rows="5" placeholder="Tell me about your project..."></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> bookings@dancername.com</p>
+                    <p><strong>Location:</strong> Mumbai, India (Available Globally)</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Name Surname. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
